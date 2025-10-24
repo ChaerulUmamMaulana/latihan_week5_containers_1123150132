@@ -36,9 +36,11 @@ class Halaman extends StatelessWidget {
         ],
       ),
       body: Container(
+        margin: EdgeInsets.all(5),
         // width: double.infinity,
         // height: double.infinity,
         // color: Colors.blueGrey,
+        alignment: Alignment.center,
 
         // child: Row(
         //   mainAxisAlignment: MainAxisAlignment.center,
