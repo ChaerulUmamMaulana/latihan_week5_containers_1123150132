@@ -26,6 +26,14 @@ class Halaman extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.deepOrange,
         title: Text("Halaman Depan"),
+        actions: [
+          Icon(Icons.add_a_photo),
+          SizedBox(width: 10),
+          Icon(Icons.account_circle),
+          SizedBox(width: 10),
+          Icon( Icons.access_alarm),
+          SizedBox(width: 10),
+        ],
       ),
     );
   }
