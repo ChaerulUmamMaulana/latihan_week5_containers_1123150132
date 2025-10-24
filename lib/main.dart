@@ -52,7 +52,7 @@ class Halaman extends StatelessWidget {
         //     Text("Ini adalah data")
         //   ],
         // ),
-
+        padding: EdgeInsets.all(20),
         decoration: BoxDecoration(
         color: Colors.cyan,
         borderRadius: BorderRadius.circular(20),
