@@ -36,20 +36,35 @@ class Halaman extends StatelessWidget {
         ],
       ),
       body: Container(
-        width: double.infinity,
-        height: double.infinity,
-        color: Colors.blueGrey,
+        // width: double.infinity,
+        // height: double.infinity,
+        // color: Colors.blueGrey,
 
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.home_repair_service),
-            SizedBox(width: 10),
-            Icon(Icons.account_balance),
-            SizedBox(width: 10),
-            Text("Ini adalah data")
-          ],
+        // child: Row(
+        //   mainAxisAlignment: MainAxisAlignment.center,
+        //   children: [
+        //     Icon(Icons.home_repair_service),
+        //     SizedBox(width: 10),
+        //     Icon(Icons.account_balance),
+        //     SizedBox(width: 10),
+        //     Text("Ini adalah data")
+        //   ],
+        // ),
+
+        decoration: BoxDecoration(
+        color: Colors.cyan,
+        borderRadius: BorderRadius.circular(20),
+        gradient: LinearGradient(
+           begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          colors: [
+            Colors.cyan, 
+            Colors.orange
+            ],
+         
         ),
+      ),
+      child: Text("Chaerul Umam Maulana"),
       ),
     );
   }
