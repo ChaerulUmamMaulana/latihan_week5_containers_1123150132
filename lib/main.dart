@@ -39,6 +39,17 @@ class Halaman extends StatelessWidget {
         width: double.infinity,
         height: double.infinity,
         color: Colors.blueGrey,
+
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.home_repair_service),
+            SizedBox(width: 10),
+            Icon(Icons.account_balance),
+            SizedBox(width: 10),
+            Text("Ini adalah data")
+          ],
+        ),
       ),
     );
   }
