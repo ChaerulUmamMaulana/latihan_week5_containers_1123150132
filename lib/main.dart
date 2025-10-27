@@ -66,8 +66,30 @@ class Halaman extends StatelessWidget {
          
         ),
       ),
-      child: Text("Chaerul Umam Maulana"),
+      child: Column(
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: [
+      Text(
+        "Chaerul Umam Maulana",
+        style: TextStyle(
+          fontSize: 22,
+          fontWeight: FontWeight.bold,
+          color: Colors.white,
+        ),
       ),
+      SizedBox(height: 10),
+      Text(
+        "Belajar coding itu bukan soal cepat, tapi soal konsisten.",
+        style: TextStyle(
+          fontStyle: FontStyle.italic,
+          color: Colors.white70,
+          fontSize: 14,
+        ),
+        textAlign: TextAlign.center,
+      ),
+    ],
+  ),
+),
     );
   }
 }
