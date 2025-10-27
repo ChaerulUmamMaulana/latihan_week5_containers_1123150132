@@ -91,7 +91,7 @@ class Halaman extends StatelessWidget {
       ),
       SizedBox(height: 10),
       Text(
-        "Belajar coding itu bukan soal cepat, tapi soal konsisten.",
+        "Anak Teknik Informatika terbiasa dengan codingan.",
         style: TextStyle(
           fontStyle: FontStyle.italic,
           color: Colors.white70,
