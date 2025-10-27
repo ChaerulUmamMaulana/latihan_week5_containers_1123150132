@@ -29,16 +29,16 @@ class Halaman extends StatelessWidget {
         actions: [
           Icon(Icons.add_a_photo),
           SizedBox(width: 10),
-          Icon(Icons.account_circle),
-          SizedBox(width: 10),
           Icon( Icons.access_alarm),
           SizedBox(width: 10),
           Icon(Icons.search),
           SizedBox(width: 10),
+          Icon(Icons.account_circle),
+          SizedBox(width: 10),
         ],
-         flexibleSpace: Container(
-    decoration: const BoxDecoration(
-      gradient: LinearGradient(
+        flexibleSpace: Container(
+        decoration: const BoxDecoration(
+        gradient: LinearGradient(
         begin: Alignment.topCenter,
         end: Alignment.bottomCenter,
         colors: [
