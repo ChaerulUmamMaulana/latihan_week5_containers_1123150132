@@ -33,6 +33,8 @@ class Halaman extends StatelessWidget {
           SizedBox(width: 10),
           Icon( Icons.access_alarm),
           SizedBox(width: 10),
+          Icon(Icons.search),
+          SizedBox(width: 10),
         ],
          flexibleSpace: Container(
     decoration: const BoxDecoration(
@@ -105,3 +107,4 @@ class Halaman extends StatelessWidget {
     );
   }
 }
+
