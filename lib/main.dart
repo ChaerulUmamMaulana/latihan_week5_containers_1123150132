@@ -34,6 +34,18 @@ class Halaman extends StatelessWidget {
           Icon( Icons.access_alarm),
           SizedBox(width: 10),
         ],
+         flexibleSpace: Container(
+    decoration: const BoxDecoration(
+      gradient: LinearGradient(
+        begin: Alignment.topCenter,
+        end: Alignment.bottomCenter,
+        colors: [
+          Colors.deepOrange, // warna atas
+          Colors.white,      // warna bawah
+        ],
+      ),
+    ),
+      )
       ),
       body: Container(
         margin: EdgeInsets.all(5),
@@ -72,7 +84,7 @@ class Halaman extends StatelessWidget {
       Text(
         "Chaerul Umam Maulana",
         style: TextStyle(
-          fontSize: 22,
+          fontSize: 30,
           fontWeight: FontWeight.bold,
           color: Colors.white,
         ),
